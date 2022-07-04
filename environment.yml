@@ -3,11 +3,14 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - alembic=1.4.1=py_0
   - antlr-python-runtime=4.8=pyhd8ed1ab_3
   - anyio=3.6.1=py38haa244fe_0
+  - appdirs=1.4.4=pyh9f0ad1d_0
   - argon2-cffi=21.3.0=pyhd8ed1ab_0
   - argon2-cffi-bindings=21.2.0=py38h294d835_2
   - arrow=1.2.2=pyhd8ed1ab_0
+  - asn1crypto=1.5.1=pyhd8ed1ab_0
   - attrs=21.4.0=pyhd8ed1ab_0
   - babel=2.10.3=pyhd8ed1ab_0
   - backcall=0.2.0=pyh9f0ad1d_0
@@ -16,6 +19,7 @@ dependencies:
   - beautifulsoup4=4.11.1=pyha770c72_0
   - binaryornot=0.4.4=py_1
   - bleach=5.0.0=pyhd8ed1ab_0
+  - blinker=1.4=py_1
   - brotlipy=0.7.0=py38h294d835_1004
   - bzip2=1.0.8=h8ffe710_4
   - ca-certificates=2022.6.15=h5b45459_0
@@ -23,14 +27,20 @@ dependencies:
   - cffi=1.15.0=py38hd8c33c5_0
   - chardet=3.0.4=py38h9bdc248_1008
   - click=8.1.3=py38haa244fe_0
+  - cloudpickle=2.1.0=pyhd8ed1ab_0
   - colorama=0.4.5=pyhd8ed1ab_0
+  - configparser=5.2.0=pyhd8ed1ab_0
+  - console_shortcut=0.1.1=4
   - cookiecutter=1.7.2=pyh9f0ad1d_0
   - cryptography=37.0.2=py38hb7941b4_0
   - cycler=0.11.0=pyhd8ed1ab_0
+  - databricks-cli=0.17.0=pyhd8ed1ab_0
   - decorator=5.1.1=pyhd8ed1ab_0
   - defusedxml=0.7.1=pyhd8ed1ab_0
+  - docker-py=5.0.3=py38haa244fe_2
   - docker-pycreds=0.4.0=py_0
   - entrypoints=0.4=pyhd8ed1ab_0
+  - flask=1.1.2=pyh9f0ad1d_0
   - flit-core=3.7.1=pyhd8ed1ab_0
   - freetype=2.10.4=h546665d_1
   - gettext=0.19.8.1=ha2e2712_1008
@@ -39,6 +49,7 @@ dependencies:
   - gitpython=3.1.27=pyhd8ed1ab_0
   - glib=2.70.2=h7755175_4
   - glib-tools=2.70.2=h7755175_4
+  - greenlet=1.1.2=py38h885f38d_2
   - gst-plugins-base=1.20.3=he07aa86_0
   - gstreamer=1.20.3=hdff456e_0
   - hydra-core=1.0.6=pyhd8ed1ab_1
@@ -50,6 +61,7 @@ dependencies:
   - ipykernel=5.5.5=py38h43734a8_0
   - ipython=7.21.0=py38hc5df569_0
   - ipython_genutils=0.2.0=py_1
+  - itsdangerous=2.1.2=pyhd8ed1ab_0
   - jedi=0.18.1=py38haa244fe_1
   - jinja2-time=0.2.0=pyhd8ed1ab_3
   - joblib=1.1.0=pyhd8ed1ab_0
@@ -91,6 +103,7 @@ dependencies:
   - m2w64-gcc-libs-core=5.3.0=7
   - m2w64-gmp=6.1.0=2
   - m2w64-libwinpthread-git=5.0.0.4634.697f757=2
+  - mako=1.2.1=pyhd8ed1ab_0
   - matplotlib=3.3.4=py38haa244fe_0
   - matplotlib-base=3.3.4=py38h34ddff4_0
   - mistune=0.8.4=py38h294d835_1005
@@ -104,6 +117,7 @@ dependencies:
   - notebook=6.4.5=pyha770c72_0
   - notebook-shim=0.1.0=pyhd8ed1ab_0
   - numpy=1.23.0=py38h223ccf5_0
+  - oauthlib=3.2.0=pyhd8ed1ab_0
   - omegaconf=2.0.6=py38haa244fe_0
   - openjpeg=2.4.0=hb211442_1
   - openssl=1.1.1p=h8ffe710_0
@@ -120,6 +134,7 @@ dependencies:
   - pip=20.3.3=pyhd8ed1ab_0
   - poyo=0.5.0=py_0
   - prometheus_client=0.14.1=pyhd8ed1ab_0
+  - prometheus_flask_exporter=0.20.2=pyhd8ed1ab_0
   - promise=2.3=py38haa244fe_6
   - prompt-toolkit=3.0.30=pyha770c72_0
   - protobuf=3.20.1=py38haa244fe_0
@@ -127,6 +142,7 @@ dependencies:
   - pthread-stubs=0.4=hcd874cb_1001
   - pycparser=2.21=pyhd8ed1ab_0
   - pygments=2.12.0=pyhd8ed1ab_0
+  - pyjwt=2.4.0=pyhd8ed1ab_0
   - pyopenssl=22.0.0=pyhd8ed1ab_0
   - pyparsing=3.0.9=pyhd8ed1ab_0
   - pyqt=5.15.4=py38h75e37d8_1
@@ -135,6 +151,7 @@ dependencies:
   - pysocks=1.7.1=py38haa244fe_5
   - python=3.8.13=h9a09f29_0_cpython
   - python-dateutil=2.8.2=pyhd8ed1ab_0
+  - python-editor=1.0.4=py_0
   - python-fastjsonschema=2.15.3=pyhd8ed1ab_0
   - python-slugify=6.1.2=pyhd8ed1ab_0
   - python_abi=3.8=2_cp38
@@ -144,6 +161,7 @@ dependencies:
   - pyyaml=6.0=py38h294d835_4
   - pyzmq=23.2.0=py38h09162b1_0
   - qt-main=5.15.4=h467ea89_2
+  - querystring_parser=1.2.4=py_0
   - requests=2.24.0=pyh9f0ad1d_0
   - scikit-learn=1.1.1=py38h9235413_0
   - scipy=1.8.1=py38h9bf8e03_0
@@ -158,8 +176,11 @@ dependencies:
   - six=1.16.0=pyh6c4a22f_0
   - sniffio=1.2.0=py38haa244fe_3
   - soupsieve=2.3.1=pyhd8ed1ab_0
+  - sqlalchemy=1.4.39=py38h294d835_0
   - sqlite=3.39.0=h8ffe710_0
+  - sqlparse=0.4.2=pyhd8ed1ab_0
   - statsmodels=0.13.2=py38hbdcd294_0
+  - tabulate=0.8.10=pyhd8ed1ab_0
   - tbb=2021.5.0=h2d74725_1
   - terminado=0.15.0=py38haa244fe_0
   - testpath=0.6.0=pyhd8ed1ab_0
@@ -175,10 +196,12 @@ dependencies:
   - urllib3=1.25.11=py_0
   - vc=14.2=hb210afc_6
   - vs2015_runtime=14.29.30037=h902a5da_6
+  - waitress=2.1.2=pyhd8ed1ab_0
   - wandb=0.12.19=pyhd8ed1ab_0
   - wcwidth=0.2.5=pyh9f0ad1d_2
   - webencodings=0.5.1=py_1
   - websocket-client=1.3.3=pyhd8ed1ab_0
+  - werkzeug=2.1.2=pyhd8ed1ab_1
   - wheel=0.37.1=pyhd8ed1ab_0
   - whichcraft=0.6.1=py_0
   - win_inet_pton=1.1.0=py38haa244fe_4
@@ -194,26 +217,27 @@ dependencies:
   - pip:
     - astropy==5.1
     - confuse==1.7.0
-    - greenlet==1.1.2
     - htmlmin==0.1.12
     - imagehash==4.2.1
+    - imbalanced-learn==0.9.1
+    - imblearn==0.0
     - ipywidgets==7.7.1
-    - itsdangerous==2.1.2
     - jinja2==3.1.2
     - jupyterlab-widgets==1.1.1
     - markupsafe==2.1.1
     - missingno==0.5.1
+    - mlflow==1.14.1
     - networkx==2.8.4
     - pandas-profiling==2.7.1
     - phik==0.12.2
+    - plotly==5.9.0
     - pyerfa==2.0.0.1
     - pywavelets==1.3.0
     - smmap==5.0.0
-    - sqlalchemy==1.4.39
-    - tabulate==0.8.10
     - tangled-up-in-unicode==0.2.0
+    - tenacity==8.0.1
     - termcolor==1.1.0
     - tqdm==4.64.0
     - visions==0.4.1
-    - werkzeug==2.1.2
     - widgetsnbextension==3.6.1
+prefix: C:\Users\Dell\anaconda3\envs\mlops2
